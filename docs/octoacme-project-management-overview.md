@@ -14,11 +14,16 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **UX Designer**: leads user research, prototyping, and ensures user-centered design.
+- **Business Analyst**: documents requirements, bridges stakeholders and delivery team.
+- **QA Automation Engineer**: designs test frameworks, ensures quality through automation.
+- **Release Manager**: coordinates releases, manages deployments, owns incident response.
+- **Support Lead**: monitors post-release health, manages customer feedback and incidents.
+
+For detailed role descriptions, responsibilities, and interactions, see [OctoAcme Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -27,6 +32,8 @@ Applies to all cross-functional projects that deliver product features, services
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- [Cross-Functional Project Kickoff Template](cross-functional-project-kickoff-template.md)
+- [Handoff Checklist](handoff-checklist.md)
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.

@@ -1,7 +1,9 @@
 # OctoAcme — Release & Deployment Guide
 
 ## Purpose
-Standardize how OctoAcme releases features to production to reduce risk and improve observability.
+Standardize how OctoAcme releases features to production to reduce risk and improve observability. The Release Manager coordinates these activities across teams.
+
+For more information on the Release Manager role and interactions with other roles, see [OctoAcme Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Release Types
 - Patch: hotfixes addressing critical production issues
@@ -16,18 +18,24 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Smoke tests prepared
 
 ## Deployment Checklist
+**Owner: Release Manager**
+
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
+- [ ] Complete handoff to Support Lead (see [Handoff Checklist](handoff-checklist.md))
 
 ## Rollback & Incident Playbook
+**Owner: Release Manager**
+
 - If a deployment fails or causes a critical issue:
   - Trigger incident response and notify on-call
   - Rollback to last known-good release if necessary
   - Triage root cause and capture action items
+  - Coordinate with Support Lead for customer communication
 
 ## Release Notes Template
 - Release name / number:
